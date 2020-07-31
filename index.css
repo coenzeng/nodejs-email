@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input:focus, textarea:focus {
+    border: 3px solid #555;
+  }
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    resize: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+      input{
+          width:100%;
+      }
+      textarea{
+          width: 100%;
+      }
+  }
